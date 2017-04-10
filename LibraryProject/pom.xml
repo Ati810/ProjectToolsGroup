@@ -23,5 +23,24 @@
 
     </dependencies>
 
+    <build>
+      <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.6.1</version>
+          <configuration>
+            <compilerId>javac</compilerId>
+          </configuration>
+          <dependencies>
+            <dependency>
+              <groupId>org.codehaus.plexus</groupId>
+              <artifactId>plexus-compiler-javac</artifactId>
+              <version>1.6</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+      </plugins>
+    </build>
+
 
 </project>

@@ -49,6 +49,19 @@ mvn exec:java
 - **Select configuration:** exec:java
 - **Run**
 
+### Building & Running
+
+#### From the terminal
+
+```shell
+mvn clean install exec:java
+```
+
+#### From IntelliJ IDEA
+
+- **Select configuration:** clean install exec:java
+- **Run**
+
 ## Contributors
 
 - Attila Kovács (Ati810)

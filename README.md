@@ -62,6 +62,19 @@ mvn clean install exec:java
 - **Select configuration:** clean install exec:java
 - **Run**
 
+### Testing
+
+#### From the terminal
+
+```shell
+mvn clean test
+```
+
+#### From IntelliJ IDEA
+
+- **Select configuration:** clean test
+- **Run**
+
 ## Contributors
 
 - Attila Kovács (Ati810)

@@ -3,7 +3,7 @@ package utilities;
 import java.util.ArrayList;
 
 /**
- *
+ * Class that represents a Member.
  * @author Attila
  */
 public class Member {

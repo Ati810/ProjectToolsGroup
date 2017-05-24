@@ -13,6 +13,10 @@ import utilities.Borrowing;
 import utilities.Member;
 import utilities.Penalty;
 
+/**
+ * Class that manages books, members, borrowings and the penalties, and uses a Database.
+ *
+ */
 public class LibraryManager {
 
     private TreeMap<Integer, Member> members;

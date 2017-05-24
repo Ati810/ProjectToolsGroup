@@ -34,7 +34,6 @@ public class PenaltyTest {
         cal.add(Calendar.YEAR, +1);
         cal.add(Calendar.SECOND, -10);
         testPenalty.getMidDate().setTime(cal.getTime().getTime());
-        System.out.println(testPenalty.getMidDate().toString());
         assertEquals(false,testPenalty.inSecondWeek());
     }
 }

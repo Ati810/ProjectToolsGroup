@@ -18,6 +18,10 @@ import utilities.Borrowing;
 import utilities.Member;
 import utilities.Penalty;
 
+/**
+ * Class that connects to the database, and manages it.
+ * 
+ */
 public class Database {
 
     private static final String JDBC_DRIVER = "oracle.jdbc.driver.OracleDriver";
